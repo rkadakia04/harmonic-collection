@@ -2,121 +2,126 @@
 <html>
 <head>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+
         .container {
-            width: 1920px;
-            height: 1080px;
+            width: 100%;
+            height: 100%;
             position: relative;
             background: white;
         }
 
-       
-        body {
-        overflow: hidden;
-        }
-
-
-
         .title {
-            left: 155px;
-            top: 369px;
+            left: 10%;
+            top: 10%;
             position: absolute;
             color: black;
-            font-size: 50px;
+            font-size: 3vw;
             font-family: 'Helvetica Neue';
             font-weight: 700;
             word-wrap: break-word;
         }
 
         .subtitle {
-            width: 475px;
-            left: 155px;
-            top: 467px;
+            width: 25%;
+            left: 10%;
+            top: 15%;
             position: absolute;
             color: #AFAFAF;
-            font-size: 24px;
+            font-size: 1.5vw;
             font-family: 'Helvetica Neue';
             font-weight: 500;
             word-wrap: break-word;
         }
 
         .description1 {
-            width: 530px;
-            height: 137px;
-            left: 153px;
-            top: 564px;
+            width: 28%;
+            height: 12%;
+            left: 10%;
+            top: 20%;
             position: absolute;
             color: #686868;
-            font-size: 14px;
+            font-size: 1vw;
             font-family: 'Helvetica Neue';
             font-weight: 400;
             word-wrap: break-word;
         }
 
         .description2 {
-            width: 495px;
-            height: 137px;
-            left: 153px;
-            top: 623px;
+            width: 26%;
+            height: 12%;
+            left: 10%;
+            top: 33%;
             position: absolute;
             color: #686868;
-            font-size: 14px;
+            font-size: 1vw;
             font-family: 'Helvetica Neue';
             font-weight: 400;
             word-wrap: break-word;
         }
 
         .button1 {
-            width: 118px;
-            height: 34px;
-            left: 151px;
-            top: 725px;
+            width: 6%;
+            height: 3%;
+            left: 5%;
+            top: 45%;
             position: absolute;
             background: #232323;
             border-radius: 20px;
         }
 
         .button2 {
-            width: 118px;
-            height: 34px;
-            left: 291px;
-            top: 725px;
+            width: 6%;
+            height: 3%;
+            left: 15%;
+            top: 45%;
             position: absolute;
             background: #E3E3E3;
             border-radius: 20px;
         }
 
         .button-text1 {
-            width: 378px;
-            height: 137px;
-            left: 188px;
-            top: 735px;
+            width: 10%;
+            height: 12%;
+            left: 8%;
+            top: 47%;
             position: absolute;
             color: white;
-            font-size: 12px;
+            font-size: 0.7vw;
             font-family: 'Helvetica Neue';
             font-weight: 500;
             word-wrap: break-word;
         }
 
         .button-text2 {
-            width: 378px;
-            height: 137px;
-            left: 328px;
-            top: 735px;
+            width: 10%;
+            height: 12%;
+            left: 16%;
+            top: 47%;
             position: absolute;
             color: #686868;
-            font-size: 12px;
+            font-size: 0.7vw;
             font-family: 'Helvetica Neue';
             font-weight: 500;
             word-wrap: break-word;
         }
 
         .image {
-            width: 960px;
-            height: 1083px;
-            left: 960px;
-            top: -3px;
+            width: 50%;
+            height: 90%;
+            left: 50%;
+            top: 0;
             position: absolute;
+            transform: translateX(-50%);
         }
     </style>
 </head>
@@ -130,7 +135,7 @@
         <div class="button2"></div>
         <div class="button-text1">ENTER</div>
         <div class="button-text2">ABOUT</div>
-        <img class="image" src="nrc1.jpg" />
+        <img class="image" src="nrc1.jpg" alt="Image Description">
     </div>
 </body>
 </html>
