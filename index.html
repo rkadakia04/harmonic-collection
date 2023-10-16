@@ -5,8 +5,13 @@
   <style>
     body {
       font-family: Helvetica, Arial, sans-serif;
-      text-align: left;
-      margin: 20px;
+      text-align: center;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
     }
     h1 {
       font-family: Impact, sans-serif;
@@ -28,42 +33,57 @@
     }
     .content {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
     }
     .subtext {
-      width: 30%;
+      width: 80%;
+      text-align: center;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .subheading {
+      font-size: 18px;
+      margin-bottom: 10px;
     }
     .images {
       width: 80%;
       display: flex;
       flex-direction: column;
+      align-items: center;
     }
     .image {
       margin: 5px 0;
       max-width: 100%;
       height: auto;
-      width: 800%; 
     }
   </style>
 </head>
 <body>
   <h1>COCO GAUF WINS THE 2023 US OPEN BY STORM</h1>
-  <h2>Take a peek into the star's routine, as well as her gift from New Balance.</h2>
   <div class="content">
     <div class="subtext">
-      <h2 style="font-size: 18px;">Subheading 1</h2>
+      <h2 class="subheading">Take a peek into the star's routine, as well as her gift from New Balance.</h2>
+    </div>
+    <div class="images">
+      <img class="image" src="coco1.jpg" alt="coco" style="max-width: 100%; height: auto;">
+    </div>
+  </div>
+  <div class="content">
+    <div class="subtext">
+      <h2 class="subheading">Subheading 1</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae vestibulum tortor.
         Vestibulum hendrerit enim nec dui cursus, ut lacinia urna volutpat.
         Nunc venenatis, urna ut varius hendrerit, risus ligula vehicula purus, ut posuere lectus lectus sit amet justo.
       </p>
-      <h2 style="font-size: 18px;">Subheading 2</h2>
+      <h2 class="subheading">Subheading 2</h2>
       <p>
-        Subtext here
-      </p>
-    </div>
-    <div class="images">
-      <img class="image" src="coco1.jpg" alt="coco" style="max-width: 100%; height: auto;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae vestibulum tortor.
+        Vestibulum hendrerit enim nec dui cursus, ut lacinia urna volutpat.
+        Nunc venenatis, urna ut varius hendrerit, risus ligula vehicula purus, ut posuere lectus lectus sit amet justo.      </p>
     </div>
   </div>
 </body>
