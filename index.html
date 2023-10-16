@@ -40,7 +40,8 @@
     }
     .image {
       margin: 5px 0;
-      max-width: 200%;
+      max-width: 100%; /* Adjust the image size by changing this value */
+      height: auto; /* Maintain aspect ratio */
     }
   </style>
 </head>
@@ -57,16 +58,14 @@
       </p>
     </div>
     <div class="images">
-      <img class="image" src="nrc1.jpg" alt="nrc">
-      <img class="image" src="image2.jpg" alt="Image 2">
-      <img class="image" src="image3.jpg" alt="Image 3">
+      <img class="image" src="coco1.jpg" alt="coco" style="max-width: 100%; height: auto;">
     </div>
   </div>
   <div class="content">
     <div class="subtext">
       <h2 style="font-size: 18px;">Subheading 2</h2>
       <p>
-        Subtext goes over hereee
+        Subtext here
       </p>
     </div>
   </div>
