@@ -1,76 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harmonic Collection Project</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fff;
-            text-align: left;
-            margin: 0;
-            max-width: 800px;
-            display: flex;
-            justify-content: space-between;
-            padding: 20px;
-        }
-        .content {
-            flex: 1;
-        }
         .container {
-            padding: 20% 0;
+            width: 1920px;
+            height: 1080px;
+            position: relative;
+            background: white;
         }
-        .header {
-            font-size: 20px;
-            font-weight: bold;
-            margin-bottom: 10px;
+
+        .title {
+            left: 155px;
+            top: 369px;
+            position: absolute;
+            color: black;
+            font-size: 50px;
+            font-family: 'Helvetica Neue';
+            font-weight: 700;
+            word-wrap: break-word;
         }
-        .sub-text {
+
+        .subtitle {
+            width: 475px;
+            left: 155px;
+            top: 467px;
+            position: absolute;
+            color: #AFAFAF;
+            font-size: 24px;
+            font-family: 'Helvetica Neue';
+            font-weight: 500;
+            word-wrap: break-word;
+        }
+
+        .description1 {
+            width: 530px;
+            height: 137px;
+            left: 153px;
+            top: 564px;
+            position: absolute;
+            color: #686868;
             font-size: 14px;
-            color: #777;
-            margin-bottom: 20px;
-            max-width: 300px;
+            font-family: 'Helvetica Neue';
+            font-weight: 400;
+            word-wrap: break-word;
         }
-        .button-container {
-            display: flex;
-            justify-content: left;
-        }
-        .button {
-            background-color: #000;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
+
+        .description2 {
+            width: 495px;
+            height: 137px;
+            left: 153px;
+            top: 623px;
+            position: absolute;
+            color: #686868;
             font-size: 14px;
-            margin-right: 10px;
-            transition: background-color 0.3s, color 0.3s;
-            text-decoration: none;
-            font-weight: normal;
+            font-family: 'Helvetica Neue';
+            font-weight: 400;
+            word-wrap: break-word;
         }
-        .button:hover {
-            background-color: #fff;
-            color: #000;
+
+        .button1 {
+            width: 118px;
+            height: 34px;
+            left: 151px;
+            top: 725px;
+            position: absolute;
+            background: #232323;
+            border-radius: 20px;
         }
-        .big-image {
-            flex: 1;
-            margin-left: 20px;
-            width: 200px; 
-            height: auto;
+
+        .button2 {
+            width: 118px;
+            height: 34px;
+            left: 291px;
+            top: 725px;
+            position: absolute;
+            background: #E3E3E3;
+            border-radius: 20px;
+        }
+
+        .button-text1 {
+            width: 378px;
+            height: 137px;
+            left: 188px;
+            top: 735px;
+            position: absolute;
+            color: white;
+            font-size: 12px;
+            font-family: 'Helvetica Neue';
+            font-weight: 500;
+            word-wrap: break-word;
+        }
+
+        .button-text2 {
+            width: 378px;
+            height: 137px;
+            left: 328px;
+            top: 735px;
+            position: absolute;
+            color: #686868;
+            font-size: 12px;
+            font-family: 'Helvetica Neue';
+            font-weight: 500;
+            word-wrap: break-word;
+        }
+
+        .image {
+            width: 960px;
+            height: 1083px;
+            left: 960px;
+            top: -3px;
+            position: absolute;
         }
     </style>
 </head>
 <body>
-    <div class="content">
-        <div class="container">
-            <div class="header"><b>HARMONIC COLLECTION PROJECT</b></div>
-            <p class="sub-text">Welcome to my harmonic collection project. In this project, I focus on one new piece of content or media each week, and highlight its strong cultural significance and design.</p>
-            <div class="button-container">
-                <a href="entry-1.html" class="button">ENTER HERE</a>
-            </div>
-        </div>
+    <div class="container">
+        <div class="title">HARMONIC COLLECTION</div>
+        <div class="subtitle">A Collection of New Pieces of News, Culture, and Design, Every Single Week.</div>
+        <div class="description1">The world is constantly changing. It’s for this reason that we need to stay up to date with all the styles, trends, and events going on around us. You don’t wanna get lost!</div>
+        <div class="description2">This is where the HCP comes in. Like a news outlet, the site provides you with not only news, but culture and design related information as well. You don’t have to be a designer to follow along - everyone is welcome!</div>
+        <div class="button1"></div>
+        <div class="button2"></div>
+        <div class="button-text1">ENTER</div>
+        <div class="button-text2">ABOUT</div>
+        <img class="image" src="nrc1.jpg" />
     </div>
-    <img src="nrc1.jpg" alt="image" class="big-image" />
 </body>
 </html>
