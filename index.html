@@ -10,14 +10,13 @@
             background-color: #fff;
             text-align: left;
             margin: 0;
-            max-width: 800px;
+            max-width: 100%;
             display: flex;
             justify-content: space-between;
             padding: 20px;
         }
         .content {
             flex: 1;
-            margin-top: 40px; 
         }
         .container {
             padding: 20% 0;
@@ -54,11 +53,11 @@
             background-color: #fff;
             color: #000;
         }
-        .nrc1 {
+        .image {
             flex: 1;
-            margin-left: 20px;
-            width: 200px; 
-            height: auto; 
+            background: ('nrc1.jpg') center/cover no-repeat;
+            height: 100vh; 
+            width: 50%; 
         }
     </style>
 </head>
@@ -72,6 +71,6 @@
             </div>
         </div>
     </div>
-    <img src="nrc1.jpg" alt="Big Image" class="nrc1" />
+    <div class="image"></div>
 </body>
 </html>
