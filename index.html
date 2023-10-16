@@ -8,21 +8,33 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #fff;
-            text-align: center;
+            text-align: left;
+            margin: 0;
+            max-width: 800px; 
+            display: flex;
+            justify-content: space-between; 
+            padding: 20px; 
+        }
+        .content {
+            flex: 1; 
         }
         .container {
-            margin: 20% auto;
-            max-width: 600px; /* Increased max-width for better text layout */
+            padding: 20% 0;
         }
         .header {
-            font-size: 20px; /* Slightly reduced font size to fit in one line */
+            font-size: 20px;
             font-weight: bold;
             margin-bottom: 10px;
         }
         .sub-text {
-            font-size: 14px; 
+            font-size: 14px;
             color: #777;
-            margin-bottom: 10px; /* Add space below the sub-text */
+            margin-bottom: 20px;
+            max-width: 300px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: left;
         }
         .button {
             background-color: #000;
@@ -31,15 +43,32 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            font-size: 14px; 
+            font-size: 14px;
+            margin-right: 10px;
+            transition: background-color 0.3s, color 0.3s;
+            text-decoration: none;
+            font-weight: normal;
+        }
+        .button:hover {
+            background-color: #fff;
+            color: #000;
+        }
+        .nrc1 {
+            flex: 1; 
+            margin-left: 20px; 
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">HARMONIC COLLECTION PROJECT</div>
-        <p class="sub-text">Welcome to my harmonic collection project. In this project, I focus on one new piece of content or media each week, and highlight its strong cultural significance and design.</p>
-        <a href="entry-1.html" class="button">ENTER HERE</a>
+    <div class="content">
+        <div class="container">
+            <div class="header"><b>HARMONIC COLLECTION PROJECT</b></div>
+            <p class="sub-text">Welcome to my harmonic collection project. In this project, I focus on one new piece of content or media each week, and highlight its strong cultural significance and design.</p>
+            <div class="button-container">
+                <a href="entry-1.html" class="button">ENTER HERE</a>
+            </div>
+        </div>
     </div>
+    <img src="nrc1.jpg" alt="Big Image" class="nrc1" />
 </body>
 </html>
