@@ -12,46 +12,58 @@
         }
         .container {
             margin: 20% auto;
-            max-width: 600px; 
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
         }
         .header {
-            font-size: 20px; 
+            font-size: 40px;
             font-weight: bold;
-            margin-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .sub-header {
+            font-size: 22px;
+            color: #a9a9a9;
+            margin-bottom: 20px;
+            text-align: center; 
+            max-width: 450px;
         }
         .sub-text {
-            font-size: 14px; 
+            font-size: 14px;
             color: #777;
-            margin-bottom: 20px;
+            margin-bottom: 35px;
         }
         .button-container {
             display: flex;
             justify-content: center;
         }
         .button {
-            background-color: #000;
-            color: #fff;
+            background-color: #262728;
+            color: #FFF;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             font-size: 14px;
-            margin: 0 10px; 
-            transition: background-color 0.3s, color 0.3s; 
-            text-decoration: none; 
-            font-weight: normal; 
+            margin: 0 10px;
+            transition: background-color 0.3s, color 0.3s;
+            text-decoration: none;
+            font-weight: normal;
         }
         .button:hover {
-            background-color: #fff; 
-            color: #000; 
+            background-color: #fff;
+            color: #545454;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="header"><b>HARMONIC COLLECTION PROJECT</b></div>
-        <p class="sub-text">Welcome to my harmonic collection project. In this project, I focus on one new piece of content or media each week, and highlight its strong cultural significance and design.</p>
-        <p class="sub-text">Here's the additional sub-text paragraph. You can add any content you like in this paragraph.</p>
+        <div class="header"><b>HARMONIC COLLECTION</b></div>
+        <div class="sub-header">A Collection of New Pieces of News, Culture, and Design, Every Single Week.</div>
+        <p class="sub-text">The world is constantly changing. It's for this reason that we need to stay up to date with all the styles, trends, and events going on around us. You don't wanna get lost!</p>
         <div class="button-container">
             <a href="entries/entry-1.html" class="button">Entry 1</a>
             <a href="entries/entry-2.html" class="button">Entry 2</a>
@@ -59,6 +71,3 @@
     </div>
 </body>
 </html>
-
-
-
