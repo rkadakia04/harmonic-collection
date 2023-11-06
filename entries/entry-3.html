@@ -66,8 +66,27 @@
       font-family: Helvetica, Arial, sans-serif;
       font-size: 20px;
       text-align: center;
-      width: 60%;
-      margin: 20px auto; 
+      width: 95%;
+      margin: 20px auto;
+    }
+    .video-container {
+      text-align: center;
+    }
+    .rounded-video {
+      border-radius: 15px;
+      max-width: 100%;
+      width: 800px;
+      height: 450px;
+    }
+    .bottom-nav {
+      text-align: center;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 15px;
+    }
+    .bottom-nav a {
+      text-decoration: none;
+      margin: 10px;
+      color: black; 
     }
   </style>
 </head>
@@ -119,6 +138,16 @@
       Cras tristique, lorem id consectetur luctus, dolor dui suscipit nulla, eu facilisis eros ligula ac odio. 
       Sed a risus euismod, venenatis nulla nec, iaculis odio. Pellentesque at quam nec nulla tincidunt venenatis.
     </p>
+  </div>
+  <div class="video-container">
+    <video class="rounded-video" controls>
+      <source src="your-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="bottom-nav">
+    <a href="index.html">Home</a>
+    <a href="entry-2">Back</a>
   </div>
 </body>
 </html>
