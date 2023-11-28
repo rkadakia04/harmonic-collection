@@ -167,12 +167,29 @@
     Cras tristique, lorem id consectetur luctus, dolor dui suscipit nulla, eu facilisis eros ligula ac odio. 
     Sed a risus euismod, venenatis nulla nec, iaculis odio. Pellentesque at quam nec nulla tincidunt venenatis.
   </p>
-</div>
+
+  <style>
+    .video-container {
+      overflow: hidden;
+      border-radius: 10px; 
+    }
+  
+    .rounded-video {
+      width: 1000px;
+      height: 500px;
+    }
+  </style>
+  
   <div class="video-container">
-    <video class="rounded-video" controls>
-      <source src="https://www.youtube.com/watch?v=P_A1RJ_sIZE" type="video">
-    </video>
-</div>
+    <iframe
+      class="rounded-video"
+      src="https://www.youtube.com/embed/P_A1RJ_sIZE?si=-GdMo5oDxwR3KClf"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
+
+
 <div class="pt2">
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non dui nec arcu vehicula vehicula. 
