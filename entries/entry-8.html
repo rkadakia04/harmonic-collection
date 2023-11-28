@@ -169,22 +169,27 @@
     Sed a risus euismod, venenatis nulla nec, iaculis odio. Pellentesque at quam nec nulla tincidunt venenatis.
   </p>
 
-</div>
-<div class="video-container">
-  <video class="rounded-video" controls>
-<iframe width="1000" height="500"
-border-radius: 15px;
-src="https://www.youtube.com/embed/P_A1RJ_sIZE?si=-GdMo5oDxwR3KClf">
-</iframe>
-</div>
-
-
-</div>
+  <style>
+    .video-container {
+      overflow: hidden;
+      border-radius: 10px; 
+    }
+  
+    .rounded-video {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  
   <div class="video-container">
-    <video class="rounded-video" controls>
-      <source src="https://www.youtube.com/embed/P_A1RJ_sIZE?si=-GdMo5oDxwR3KClf" type="video">
-    </video>
-</div>
+    <iframe
+      class="rounded-video"
+      src="https://www.youtube.com/embed/P_A1RJ_sIZE?si=-GdMo5oDxwR3KClf"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
+
 <div class="pt2">
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non dui nec arcu vehicula vehicula. 
